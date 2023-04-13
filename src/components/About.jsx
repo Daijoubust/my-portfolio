@@ -13,7 +13,7 @@ const About = () => {
                 associated tools. Astonishing problem solving skills, communication skills and a team player.
                 </p>
                 <br/>
-                <p className=' text-xl mt-14'>
+                <p className=' text-xl mt-14 mb-14'>
                 How I've become frontend developer ?
                 <br/>
                 I was make education website about Japanese history with Dreamweaver when I was in high school and I really love to design or create something that delighted, I had using Photoshop and Illustrator before so I loved these thing and I found out that web development is suited to my skill so I decide to learn by my self. That was over 4 months since I have learned web development intensely.
