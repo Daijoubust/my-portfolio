@@ -16,22 +16,26 @@ const Portfolio = () => {
         {
             id: 1,
             src: convertFigma,
-            link: "https://github.com/Daijoubust/outerspace"
+            link: "https://github.com/Daijoubust/outerspace",
+            demo: "https://daijoubust-outerspace.netlify.app/"
         },
         {
             id: 2,
             src: simpleLanding,
-            link: "https://github.com/Daijoubust/simple-landing-page"
+            link: "https://github.com/Daijoubust/simple-landing-page",
+            demo: "https://daijoubust-simple-landing-page.netlify.app/"
         },
         {
             id: 3,
             src: snakeGame,
-            link: "https://github.com/Daijoubust/Snake-Game"
+            link: "https://github.com/Daijoubust/Snake-Game",
+            demo: "https://daijoubust-snake-game.netlify.app/"
         },
         {
             id: 4,
             src: toDoList,
-            link: "https://github.com/Daijoubust/to-do-list-but-better"
+            link: "https://github.com/Daijoubust/to-do-list-but-better",
+            demo: "https://daijoubust-to-do-list.netlify.app/"
         },
         {
             id: 5,
@@ -41,22 +45,26 @@ const Portfolio = () => {
         {
             id: 6,
             src: socialMediaApp1,
-            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust"
+            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
+            demo: "https://daijoubust-social-media-login.netlify.app/login"
         },
         {
             id: 7,
             src: socialMediaApp2,
-            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust"
+            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
+            demo: "https://daijoubust-social-media-login.netlify.app/register"
         },
         {
             id: 8,
             src: socialMediaApp3,
-            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust"
+            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
+            demo: "https://daijoubust-social-media.netlify.app/"
         },
         {
             id: 9,
             src: socialMediaApp4,
-            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust"
+            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
+            demo: "https://daijoubust-social-media.netlify.app/"
         },
     ]
 
@@ -68,11 +76,12 @@ const Portfolio = () => {
                 <p className=' py-6'>Check out some of my work right here</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                {portfolios.map(({id,src,link}) => (
+                {portfolios.map(({id,src,link,demo}) => (
                     <div key={id} className='shadow-md shadow-gray-500 rounded-lg'>
                         <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
                         <div className='flex items-center justify-center'>
                             <button className=' w-full px-6 py-3 m-4 duration-200 hover:scale-105'><a href={link}>Code</a></button>
+                            <button className=' w-full px-6 py-3 m-4 duration-200 hover:scale-105'><a href={demo}>Demo</a></button>
                         </div>
                     </div>
                     ))}
