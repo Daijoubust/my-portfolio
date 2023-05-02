@@ -7,7 +7,8 @@ import weatherApp from '../assets/portfolio/weather-app.jpg'
 import socialMediaApp1 from '../assets/portfolio/social-media-app-1.jpg'
 import socialMediaApp2 from '../assets/portfolio/social-media-app-2.jpg'
 import socialMediaApp3 from '../assets/portfolio/social-media-app-3.jpg'
-import socialMediaApp4 from '../assets/portfolio/social-media-app-4.jpg'
+// import socialMediaApp4 from '../assets/portfolio/social-media-app-4.jpg'
+import sproutLand from '../assets/portfolio/sprout-land.png'
 
 
 const Portfolio = () => {
@@ -44,25 +45,25 @@ const Portfolio = () => {
         },
         {
             id: 6,
+            src: sproutLand,
+            link: "https://github.com/Daijoubust/sprout-lands-landing-page",
+            demo: "https://sprout-land-by-daijoubust.netlify.app/"
+        },
+        {
+            id: 7,
             src: socialMediaApp1,
             link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
             demo: "https://daijoubust-social-media-login.netlify.app/login"
         },
         {
-            id: 7,
+            id: 8,
             src: socialMediaApp2,
             link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
             demo: "https://daijoubust-social-media-login.netlify.app/register"
         },
         {
-            id: 8,
-            src: socialMediaApp3,
-            link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
-            demo: "https://daijoubust-social-media.netlify.app/"
-        },
-        {
             id: 9,
-            src: socialMediaApp4,
+            src: socialMediaApp3,
             link: "https://github.com/Daijoubust/Social-Media-App-by-Daijoubust",
             demo: "https://daijoubust-social-media.netlify.app/"
         },
