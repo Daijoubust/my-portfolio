@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/sirawich-kansanit-42a166270/',
             style : 'rounded-tr-md'
         },
         {
@@ -45,10 +45,10 @@ const SocialLinks = () => {
             style : 'rounded-br-md',
             download: true,
         },
-        
+
     ]
     return (
-        
+
         <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
             <ul>
 
