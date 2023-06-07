@@ -1,0 +1,16 @@
+@keyframes slideBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.port {
+    animation: slideBottom 1s ease-in 0s 1 normal forwards;
+    -webkit-animation: slideBottom 1s ease-in 0s 1 normal forwards;
+}
