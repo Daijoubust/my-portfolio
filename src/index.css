@@ -10,3 +10,8 @@
     font-family: 'Poppins', sans-serif;
   }
 }
+
+.Header {
+  @apply
+  fixed
+}

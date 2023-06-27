@@ -1,5 +1,5 @@
 import React , {useState,useEffect} from 'react'
-import './home.css'
+import './home.scss'
 import './about.css'
 // import arrayDestruct from '../assets/port'
 

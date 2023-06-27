@@ -1,6 +1,7 @@
 import React , { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import './Navbar.css'
 
 const NavBar = () => {
 
@@ -30,7 +31,7 @@ const NavBar = () => {
     ]
 
     return (
-        <div className='flex justify-between items-center w-full h-20 px-16 text-white bg-black fixed'>
+        <div className='nav flex justify-between items-center w-full h-20 px-16 text-white bg-black fixed'>
             <div>
                 <h1 className=' text-5xl font-signature ml-2 sm:ml-0'>Daijoubust<span></span></h1>
             </div>

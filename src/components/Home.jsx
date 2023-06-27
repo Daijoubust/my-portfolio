@@ -2,14 +2,15 @@ import React from 'react'
 import HeroImage from '../assets/heroImage.jpg'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll';
+import './home.scss'
 
 const Home = () => {
     return (
         <div
         name="home"
-        className='h-screen w-full bg-gradient-to-b via-black
+        className='home h-screen w-full bg-gradient-to-b via-black
         from-black to-gray-800 py-20'>
-            <div className=' max-w-screen-lg mx-auto flex flex-col
+            <div className='homepage max-w-screen-lg mx-auto flex flex-col
             items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                 <div className={`flex flex-col justify-center content`}>

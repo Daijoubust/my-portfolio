@@ -29,3 +29,15 @@
     animation: slideDown 1.5s ease-in 0s 1 normal forwards;
     -webkit-animation: slideDown 1.5s ease-in 0s 1 normal forwards;
 }
+
+.home {
+	@media (max-width: 768px) {
+		@apply mt-20
+	}
+}
+
+.homepage {
+	@media (max-width: 768px) {
+		@apply pt-60
+	}
+}

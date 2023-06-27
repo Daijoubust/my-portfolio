@@ -1,0 +1,6 @@
+.nav {
+    @apply
+    absolute
+    z-50
+    top-0
+}
